@@ -1,6 +1,6 @@
-import Store from ".";
-import API from "../services/API.js";
-import { loadData } from "../services/Menu.js";
+import Store from "../coffeemasters/services/Store.js";
+import API from "../coffeemasters/services/API.js";
+import { loadData } from "../coffeemasters/services/Menu.js";
 
 // making Store modue accessible to globle
 window.app = {};
